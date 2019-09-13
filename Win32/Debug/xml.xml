@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+<MENSAGEM>
+  <AVISO>
+    <DE>Wesley</DE>
+    <PARA>Henrylle</PARA>
+    <CABECALHO>Entregar Vìdeo Aula</CABECALHO>
+    <CORPO>Estou aguardando a entrega das vídeos</CORPO>
+  </AVISO>
+  <AVISO>
+    <DE>Wesley</DE>
+    <PARA>Rafael Silva</PARA>
+    <CABECALHO>Entregar Artigo</CABECALHO>
+    <CORPO>Estou aguardando a entrega dos artigos</CORPO>
+  </AVISO>  
+  <AVISO>
+    <DE>Rafael Silva</DE>
+    <PARA>Wesley</PARA>
+    <CABECALHO>Re: Entregar Artigo</CABECALHO>
+    <CORPO>Seguem os artigos conforme combinado</CORPO>
+  </AVISO>    
+  <AVISO>
+    <DE>Henrylle</DE>
+    <PARA>Wesley</PARA>
+    <CABECALHO>Re: Entregar Vìdeo Aula</CABECALHO>
+    <CORPO>Seguem as vídeo aulas conforme combinado</CORPO>
+  </AVISO>    
+</MENSAGEM>

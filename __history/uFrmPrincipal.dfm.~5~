@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'CarregaXML'
+  ClientHeight = 236
+  ClientWidth = 603
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnPrincipal: TPanel
+    Left = 0
+    Top = 56
+    Width = 603
+    Height = 180
+    Align = alBottom
+    TabOrder = 0
+    ExplicitTop = 96
+    ExplicitWidth = 635
+    object Label1: TLabel
+      Left = 448
+      Top = 5
+      Width = 59
+      Height = 13
+      Caption = 'Lista do XML'
+    end
+    object EdtPara: TLabeledEdit
+      Left = 24
+      Top = 24
+      Width = 121
+      Height = 21
+      EditLabel.Width = 22
+      EditLabel.Height = 13
+      EditLabel.Caption = 'Para'
+      TabOrder = 0
+    end
+    object EdtDe: TLabeledEdit
+      Left = 24
+      Top = 64
+      Width = 121
+      Height = 21
+      EditLabel.Width = 13
+      EditLabel.Height = 13
+      EditLabel.Caption = 'De'
+      TabOrder = 1
+    end
+    object EdtCabecalho: TLabeledEdit
+      Left = 24
+      Top = 108
+      Width = 297
+      Height = 21
+      EditLabel.Width = 50
+      EditLabel.Height = 13
+      EditLabel.Caption = 'Cabecalho'
+      TabOrder = 2
+    end
+    object EdtCorpo: TLabeledEdit
+      Left = 24
+      Top = 152
+      Width = 297
+      Height = 21
+      EditLabel.Width = 29
+      EditLabel.Height = 13
+      EditLabel.Caption = 'Corpo'
+      TabOrder = 3
+    end
+  end
+  object BtnCarregaXML: TBitBtn
+    Left = 24
+    Top = 16
+    Width = 297
+    Height = 25
+    Caption = 'Carrega XML'
+    TabOrder = 1
+    OnClick = BtnCarregaXMLClick
+  end
+  object LstbxDados: TListBox
+    Left = 360
+    Top = 80
+    Width = 226
+    Height = 148
+    ItemHeight = 13
+    TabOrder = 2
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 192
+    Top = 80
+  end
+  object XMLDocument1: TXMLDocument
+    Left = 272
+    Top = 80
+  end
+end

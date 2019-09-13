@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/09/13 14:28:11.062,=C:\Users\francisco\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:34:07.078,D:\Estudos\XML\ImportarXML\uFrmPrincipal.dfm=C:\Users\francisco\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/09/13 14:34:07.078,D:\Estudos\XML\ImportarXML\uFrmPrincipal.pas=C:\Users\francisco\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:34:08.566,D:\Estudos\XML\ImportarXML\Project1.dproj=C:\Users\francisco\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
